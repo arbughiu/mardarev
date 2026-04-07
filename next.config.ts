@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "*.storage.dev",
       },
+      {
+        protocol: "https",
+        hostname: "*.vercel.app",
+      },
     ],
   },
 };
